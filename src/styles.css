@@ -1,0 +1,108 @@
+/* 將整個表格置於畫面正中間 */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+    width: 320px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* 設定表格樣式 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* 表格的 th 和 td 元素的通用樣式 */
+th, td {
+    border: 1px solid rgb(185, 158, 84);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+/* 表格的 thead 元素的樣式 */
+thead {
+    background-color: rgb(253, 227, 156);
+}
+
+tfoot {
+    background-color: rgb(253, 227, 156);
+    font-weight: bold;
+}
+
+/* 表格的 th 元素的樣式 */
+th {
+    background-color: rgb(253, 227, 156);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 編輯按鈕和刪除按鈕的樣式 */
+button {
+    margin: 1px;
+    padding: 2px 6px;
+    border: 1px solid rgb(202, 168, 74);
+    background-color: rgb(253, 216, 115);
+    color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(224, 192, 102);
+}
+
+/* 禁用狀態下的按鈕樣式 */
+button:disabled {
+    background-color: #ccc; /* 自行設定顏色 */
+    border: 1px solid #ccc;
+    cursor: not-allowed;
+}
+
+input {
+    font-size: 16px;
+    width: 100px;
+}
+
+/* 新增按鈕的樣式 */
+.add-button {
+    margin-top: 10px;
+}
+
+/* 將整個內容區塊垂直置中 */
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+/* 設定表格外部容器樣式 */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 50px; /* 調整間距 */
+}
+
+.InputText {
+    width: 100px;
+}
+
+.InputDescription{
+    width: 150px;
+}
